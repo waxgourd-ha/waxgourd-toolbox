@@ -17,8 +17,6 @@ WaxGourd Toolbox is a comprehensive management utility specifically designed for
 
 ```shell
 sudo dpkg -i wa-tools-[version]-arm64.deb
-sudo systemctl enable wa-tools.service
-sudo systemctl start wa-tools.service
 
 # Check service status
 sudo systemctl status wa-tools.service

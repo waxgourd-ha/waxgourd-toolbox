@@ -17,9 +17,9 @@
 
 ```shell
 sudo dpkg -i wa-tools-[版本]-arm64.deb
-sudo systemctl enable wa-tools.service
-sudo systemctl start wa-tools.service
+```
 
+```shell
 # 查看服务状态
 sudo systemctl status wa-tools.service
 ```
